@@ -2,14 +2,12 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      nodejs: 14
     commands:
-      - echo Installing dependencies (if any)
+      - echo "No dependencies to install"
   build:
     commands:
-      - echo Build phase not needed for static site
+      - echo "Build complete"
+
 artifacts:
   files:
     - '**/*'
-  base-directory: '.'
